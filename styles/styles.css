@@ -31,7 +31,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .btn-primary {
@@ -77,10 +77,12 @@
     margin-left: 30px;
 }
 
+/* Plan */
 .my-plan {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    margin-top: 40px;
 }
 
 .plan-container {
@@ -88,15 +90,14 @@
     gap: 86px;
     justify-content: center;
     padding: 30px;
-    margin-top: 30px;
-
+    margin-top: 20px;
 }
 
 .plan-title {
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    /* margin-bottom: 10px; */
+    margin-top: 20px;
 }
 
 .plan-description {
@@ -109,6 +110,8 @@
     background-repeat: no-repeat;
     height: 300px;
     background-position: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 .banner-title {
@@ -127,4 +130,22 @@
     border: 0;
     margin-left: 200px;
     margin-top: 20px;
+}
+.footer{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    padding: 150px;
+    background-color: #151414;
+}
+.footer-title{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
