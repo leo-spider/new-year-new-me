@@ -1,5 +1,99 @@
-.banner{
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* Banner styles */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner {
     text-align: right;
-    font-size: 45px;
-    font-size: 50;
+    font-weight: 700;
+    font-size: 65px;
+    font-style: normal;
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 16px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 30px;
+}
+
+.btn-primary {
+    height: 50px;
+    color: #005FAC;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.section-2-img {
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+}
+.failure-para{
+    color: #444343;
+    margin-left: 50px;
+
+}
+.failure-list{
+    margin-top: 20px;
+    color: #444343;
+    margin-left: 30px;
+}
+.my-plan{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-container{
+    display: flex;
+    gap: 86px;
+    justify-content:center;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+.plan-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.plan-description{
+    font-size: 25px;
+    font-weight: 500;
 }
