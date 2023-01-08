@@ -68,7 +68,12 @@
 .failure-para {
     color: #444343;
     margin-left: 50px;
-
+}
+li{
+    list-style: none;
+}
+li:before{
+    content: \2713;
 }
 
 .failure-list {
@@ -131,6 +136,8 @@
     margin-left: 200px;
     margin-top: 20px;
 }
+
+/* footer */
 .footer{
     display: flex;
     gap: 50px;
@@ -143,9 +150,32 @@
     font-size: 45px;
     font-weight: 700;
     color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.contact{
+    color: #FFFFFF;
 }
 .footer-description{
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
+}
+.footer-button{
+    height: 35px;
+    width: 170px;
+    margin-top: 15px;
+    background-color: #005FAC;
+    color:#FFFFFF;   
+}
+.icon{
+    margin-top: 20px;
+}
+.footer-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+input{
+    height: 35px;
+    width: 225px;
 }
