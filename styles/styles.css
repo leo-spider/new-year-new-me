@@ -42,7 +42,7 @@
     font-size: 20px;
     border: 0;
 }
-
+/* Section 2-failure */
 .section-2 {
     display: flex;
     justify-content: space-between;
@@ -64,36 +64,67 @@
     margin-bottom: 20px;
     margin-left: 48px;
 }
-.failure-para{
+
+.failure-para {
     color: #444343;
     margin-left: 50px;
 
 }
-.failure-list{
+
+.failure-list {
     margin-top: 20px;
     color: #444343;
     margin-left: 30px;
 }
-.my-plan{
+
+.my-plan {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
-.plan-container{
+
+.plan-container {
     display: flex;
     gap: 86px;
-    justify-content:center;
+    justify-content: center;
     padding: 30px;
     margin-top: 30px;
-    
+
 }
-.plan-title{
+
+.plan-title {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 30px;
     margin-top: 30px;
 }
-.plan-description{
+
+.plan-description {
     font-size: 25px;
     font-weight: 500;
+}
+/* positive mindset banner */
+.mset-banner-title {
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.mset-button{
+    height: 50px;
+    color: #005FAC;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    margin-left: 200px;
+    margin-top: 20px;
 }
